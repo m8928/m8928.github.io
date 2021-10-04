@@ -1,3 +1,4 @@
-.content .se-viewer:lang(ko-KR) { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT" !important;}
-.content .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT" !important;}
-.post_title .tit { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT" !important;}
+.content .se-viewer:lang(ko-KR) { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
+.content .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
+.post_title .tit { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
+.fr-view, .post_article { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
