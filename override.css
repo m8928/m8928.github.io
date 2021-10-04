@@ -4,4 +4,4 @@
 .post_title .tit { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
 .post_title .date, .post_title .no { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
 /* CLIEN */
-.post_article { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
+.post_article.inline_link { font-family: "WFONT__FONT", "WFONT__EMPTY__FONT", -apple-system !important;}
