@@ -1,5 +1,3 @@
-/* ALL */
-* { font-family: "SFFE__FONT", -apple-system !important;" }
 /* NAVER CAFE */
 .content .se-viewer:lang(ko-KR) { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
 .content .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
@@ -11,3 +9,6 @@ body > div.nav_container > div.content_view > div.post_view > div.post_content >
 #div_content > div.post_view > div.post_content > article > div { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
 #div_content > div.post_view > div.post_content > article > div > * { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
 .fr-view p, .fr-view span, .post_article p, .post_article span { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
+
+/* ALL */
+* { font-family: "SFFE__FONT", -apple-system !important;" }
