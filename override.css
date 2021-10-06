@@ -1,3 +1,5 @@
+/* ALL */
+* { font-family: "SFFE__FONT", -apple-system !important;" }
 /* NAVER CAFE */
 .content .se-viewer:lang(ko-KR) { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
 .content .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
