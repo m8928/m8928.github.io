@@ -8,3 +8,5 @@
 /* CLIEN */
 body > div.nav_container > div.content_view > div.post_view > div.post_content > article > div { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
 body > div.nav_container > div.content_view > div.post_view > div.post_content > article > div > * { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
+#div_content > div.post_view > div.post_content > article > div { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
+  #div_content > div.post_view > div.post_content > article > div > * { font-family: "SFFE__FONT", "SFFE__EMPTY__FONT", -apple-system !important;}
