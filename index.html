@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFFE - 웹페이지 폰트 변경 확장기능</title>
+    <meta name="description" content="SFFE는 Safari 웹페이지의 폰트를 원하는 폰트로 변경해주는 iOS 확장기능입니다.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo"><span>SFFE</span></div>
+            <nav class="site-nav">
+                <button id="theme-toggle" class="btn btn-text">DARK</button>
+                <button id="lang-toggle" class="btn btn-text">EN</button>
+                <a href="https://apps.apple.com/kr/app/sffe/id1588740825" class="btn btn-primary" target="_blank"
+                    data-i18n="download">App
+                    Store에서 다운로드</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 data-i18n="hero_title">웹페이지 폰트를<br>내 마음대로.</h1>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">SFFE는 Safari에서 보는 모든 웹페이지의 폰트를<br>원하는 폰트로 변경해주는
+                        강력한 확장기능입니다.</p>
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/kr/app/sffe/id1588740825" class="btn btn-large btn-white"
+                            target="_blank">
+                            <span class="icon"></span> <span data-i18n="view_on_appstore">App Store에서 보기</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <img id="app-screenshot" src="assets/images/app-ko-light.png" alt="SFFE App Screenshot"
+                            class="app-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">Aa</div>
+                        <h3 data-i18n="feature1_title">원하는 폰트 적용</h3>
+                        <p data-i18n="feature1_desc">기기에 설치된 폰트나 웹 폰트를 사용하여<br>웹페이지의 가독성을 높이세요.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔒</div>
+                        <h3 data-i18n="feature2_title">개인정보 보호</h3>
+                        <p data-i18n="feature2_desc">SFFE는 사용자의 데이터를 수집하지 않습니다.<br>안심하고 사용하세요.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⚡️</div>
+                        <h3 data-i18n="feature3_title">간편한 사용</h3>
+                        <p data-i18n="feature3_desc">복잡한 설정 없이 몇 번의 탭만으로<br>폰트를 변경할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">© 2025 BLUEAT. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://sffe.blueat.me/policy" data-i18n="privacy_policy">개인정보 처리방침</a>
+                    <a href="mailto:sffe@blueat.me" data-i18n="support">지원</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
