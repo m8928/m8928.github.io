@@ -1,0 +1,62 @@
+/* NAVER CAFE */
+.content .se-viewer:lang(ko-KR) {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+.content .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff- {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+.post_title .tit {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+.post_title .date,
+.post_title .no {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+/* CLIEN */
+body>div.nav_container>div.content_view>div.post_view>div.post_content>article>div {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+body>div.nav_container>div.content_view>div.post_view>div.post_content>article>div>* {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+#div_content>div.post_view>div.post_content>article>div {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+#div_content>div.post_view>div.post_content>article>div>* {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+.fr-view p,
+.fr-view span,
+.post_article p,
+.post_article span {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+*:not(i.material-icons-extended):not(.o365sx-button):not(.o365sx-button > div > span):not(button#sign-in.si-button > i):not([class*="fa-"]):not([data-icon-name]):not(.ms-Button-icon):not(.ms-Icon):not(i[class*="css-"]):not(div[class*="css-"]):not([class*="ns-"]):not([class*="xi-"]):not([class*="cs-font"]):not(button.c-flipper):not(i[class*="icon-"]):not(i[class*="im-icon"]):not(span[class*="icon-"]):not(i[class*="ii-"]):not(i[class*="btm"]):not(i[class*="btl"]):not(i[data-icon-name]>span>i):not(span[class*="fui-Button__icon"]>div>div>i):not([class*=menuIcon]):not([class*=systemIcon]):not(div[class*=menu-opener]):not([class*=icomoon-]):not([class*=symbolset]) {
+    font-family: "SFFE__FONT", -apple-system !important;
+}
+
+/* nike */
+[class^="ns-"],
+[class*=" ns-"] {
+    font-family: "nike" !important;
+}
+
+/* willys.kr */
+[class^="xi-"],
+[class*=" xi-"] {
+    font-family: "xeicon" !important;
+}
+
+[class^="cs-font"],
+[class*=" cs-font"] {
+    font-family: "cleversoft" !important;
+}
