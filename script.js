@@ -63,6 +63,12 @@ function updateLanguage(lang) {
         toggleBtn.textContent = lang === 'ko' ? 'EN' : 'KO';
     }
 
+    // Update privacy policy link
+    const policyLink = document.querySelector('a[data-i18n="privacy_policy"]');
+    if (policyLink) {
+        policyLink.href = lang === 'ko' ? 'policy-ko.html' : 'policy.html';
+    }
+
     updateAppImage();
 }
 
