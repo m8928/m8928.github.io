@@ -1,0 +1,53 @@
+{
+    "styles": [
+        {
+            "selectors": [
+                ":not(.sffe-exclude):not(i.material-icons-extended):not(.o365sx-button):not(.o365sx-button > div > span):not(button#sign-in.si-button > i):not([class*=fa-]):not([data-icon-name]):not(.ms-Button-icon):not(.ms-Icon):not(i[class*=css-]):not(div[class*=css-]):not([class*=cs-font]):not(div[class*=menu-opener]):not([class*=icomoon-]):not([class*=symbolset]):not(.material-symbols-outlined):not(.material-symbols-rounded):not(.material-symbols-sharp):not(.material-icons):not(.material-icons-outlined):not(.material-icons-round):not(.material-icons-sharp):not(.material-icons-two-tone)",
+                "#div_content>div.post_view>div.post_content>article>div",
+                "#div_content>div.post_view>div.post_content>article>div>*",
+                ".content .se-viewer:lang(ko-KR)",
+                ".content .se-viewer:lang(ko-KR) .se-section-text.se-l-default .se-ff-",
+                ".fr-view p",
+                ".fr-view span",
+                ".post_article p",
+                ".post_article span",
+                ".post_title .date",
+                ".post_title .no",
+                ".post_title .tit",
+                "body>div.nav_container>div.content_view>div.post_view>div.post_content>article>div",
+                "body>div.nav_container>div.content_view>div.post_view>div.post_content>article>div>*"
+            ],
+            "css": "font-family: SFFE__FONT, -apple-system !important"
+        }
+    ],
+    "exclusions": [
+        {
+            "type": "fontFamily",
+            "value": "nike"
+        },
+        {
+            "type": "fontFamily",
+            "value": "xeicon"
+        },
+        {
+            "type": "fontFamily",
+            "value": "cleversoft"
+        },
+        {
+            "type": "fontFamily",
+            "value": "Material Icons"
+        },
+        {
+            "type": "fontFamily",
+            "value": "Material Symbols"
+        },
+        {
+            "type": "fontFamily",
+            "value": "Material Icons Extended"
+        },
+        {
+            "type": "fontFamily",
+            "value": "Google Symbols"
+        }
+    ]
+}
